@@ -1,0 +1,38 @@
+.caixa1{
+    background-color: black;
+    position: relative;
+    width: 3000px;
+    height: 3000px;
+}
+
+.caixa2{
+    background-color: blue;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 400px;
+    height: 200px;
+    z-index: 1;
+}
+
+.a, .b{
+
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    left: 0px;
+    width: 100vw;
+    height: 100vw;
+}
+
+.a{
+
+    top: 0px;
+    background-color: rgb(185, 16, 115);
+}
+
+.b{
+
+    top: 100vw;
+    background-color: red;
+}
